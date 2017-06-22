@@ -16,7 +16,7 @@ body{
   padding-left: 4vw;
   margin-top: 1vh;
   margin-bottom: 1vh;
-  font-size: 2vh;
+  font-size: 3vh;
 }
 #telefono{
   color: white;
@@ -24,11 +24,11 @@ body{
   padding-right: 4vw;
   margin-top: 1vh;
   margin-bottom: 1vh;
-  font-size: 2vh;
+  font-size: 3vh;
 }
 #titulo{
   background-color: rgba(225,225,225,0.8);
-  font-size: 7vh;
+  font-size: 8vh;
   padding-left: 1vw;
   margin-top: 2vh;
   margin-bottom: 2vh;
@@ -38,6 +38,9 @@ body{
 #menu{
   margin-bottom: 15vh;
 }
+#foto{
+  box-shadow: 5px 5px 5px black;
+}	
 a:link{
   text-decoration: none;
 }
@@ -48,6 +51,12 @@ a:link{
   padding-left: 3vw;
   margin-top: 4vh;
   margin-bottom: 4vh;
+}
+.menus2{
+  background-color: rgba(100,100,100,0.5);
+  color: white;
+  font-size: 4vh;
+  text-align: center;
 }
 #fotos{
   text-align: center;
