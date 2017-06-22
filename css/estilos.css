@@ -1,0 +1,59 @@
+*{
+
+  font-family: 'Lobster', cursive;
+}
+body{
+  background-image: url(../imagenes/bigtower.jpg);
+}
+#cabecera{
+  background-color: grey;
+}
+#ciudad{
+  color: white;
+  text-align: left;
+  padding-left: 2vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-size: 2vh;
+}
+#telefono{
+  color: white;
+  text-align: right;
+  padding-right: 2vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-size: 2vh;
+}
+#titulo{
+  background-color: white;
+  font-size: 7vh;
+  padding-left: 1vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 7vw;
+}
+#menu{
+  margin-bottom: 10vh;
+}
+.menus{
+  background-color: grey;
+  color: white;
+  font-size: 4vh;
+  padding-left: 3vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+#fotos{
+  text-align: center;
+  margin-top: 3vh;
+}
+#pie{
+  background-color: white;
+  font-size: 3vh;
+  text-align: center;
+}
+#mapa{
+  height: 25vh;
+  width: 55vh;
+  border: solid;
+}
