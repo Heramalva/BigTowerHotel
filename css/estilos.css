@@ -4,6 +4,8 @@
 }
 body{
   background-image: url(../imagenes/bigtower.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #cabecera{
   background-color: grey;
@@ -11,7 +13,7 @@ body{
 #ciudad{
   color: white;
   text-align: left;
-  padding-left: 2vw;
+  padding-left: 4vw;
   margin-top: 1vh;
   margin-bottom: 1vh;
   font-size: 2vh;
@@ -19,41 +21,45 @@ body{
 #telefono{
   color: white;
   text-align: right;
-  padding-right: 2vw;
+  padding-right: 4vw;
   margin-top: 1vh;
   margin-bottom: 1vh;
   font-size: 2vh;
 }
 #titulo{
-  background-color: white;
+  background-color: rgba(225,225,225,0.8);
   font-size: 7vh;
   padding-left: 1vw;
   margin-top: 2vh;
   margin-bottom: 2vh;
   margin-left: 7vw;
+  color: black;
 }
 #menu{
-  margin-bottom: 10vh;
+  margin-bottom: 15vh;
+}
+a:link{
+  text-decoration: none;
 }
 .menus{
-  background-color: grey;
+  background-color: rgba(100,100,100,0.5);
   color: white;
   font-size: 4vh;
   padding-left: 3vw;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
 }
 #fotos{
   text-align: center;
   margin-top: 3vh;
 }
 #pie{
-  background-color: white;
+  background-color: rgba(225,225,225,0.8);
   font-size: 3vh;
   text-align: center;
 }
 #mapa{
-  height: 25vh;
-  width: 55vh;
+  height: 18vh;
+  width: 40vh;
   border: solid;
 }
