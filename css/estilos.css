@@ -40,7 +40,7 @@ body{
 }
 #foto{
   box-shadow: 5px 5px 5px black;
-}	
+}
 a:link{
   text-decoration: none;
 }
@@ -56,6 +56,18 @@ a:link{
   background-color: rgba(100,100,100,0.5);
   color: white;
   font-size: 4vh;
+  text-align: center;
+}
+#cuerpo{
+  background-color: rgba(100,100,100,0.5);
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+#descripcion{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  font-size: 1.5vw;
+  color: black;
   text-align: center;
 }
 #fotos{
