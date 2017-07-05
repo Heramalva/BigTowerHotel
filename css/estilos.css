@@ -1,5 +1,4 @@
 *{
-
   font-family: 'Berkshire Swash', cursive;
 }
 body{
@@ -38,11 +37,12 @@ body{
   color: #250302;
 }
 #menu{
-  margin-bottom: 15vh;
+  margin-bottom: 6vh;
   text-shadow: 2px 2px 1px black;
 }
 #foto{
   box-shadow: 5px 5px 5px black;
+  text-align: center;
 }
 a:link{
   text-decoration: none;
@@ -55,6 +55,7 @@ a:link{
   margin-top: 4vh;
   margin-bottom: 4vh;
   text-shadow: 2px 2px 1px black;
+  text-align: center;
 }
 .menus2{
   background-color: rgba(100,100,100,0.5);
@@ -71,8 +72,8 @@ a:link{
   margin-right: 10vw;
 }
 #descripcion{
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   font-size: 1.5vw;
   color: white;
   text-align: center;
