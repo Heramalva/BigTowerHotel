@@ -44,26 +44,14 @@
 <!--Contenido-->
   <div class="row">
     <div class="col-xs-11" id="cuerpo">
-      <form class="contacto">
-        <h2>Pongase en Contacto con Nosotros</h2>
+      <form class="contacto" action="enviar.php" method="post">
+        <h2 class="turismo">Pongase en Contacto con Nosotros</h2>
         <br>
-        <label>Nombre:</label>
-        <br>
-        <input class="datos" type="text" name="nombre"></input>
-        <br>
-        <label>Correo:</label>
-        <br>
-        <input class="datos" type="email" name="nombre"></input>
-        <br>
-        <label>Teléfono:</label>
-        <br>
-        <input class="datos" type="number" name="nombre"></input>
-        <br>
-        <label>Mensaje:</label>
-        <br>
-        <textarea></textarea>
-        <br>
-        <input type="submit" class="boton"></input>
+        <input type="text" name="nombre" placeholder="Nombre" required></input>
+        <input type="email" name="correo" placeholder="Correo" required></input>
+        <input type="number" name="telefono" placeholder="Teléfono" required></input>
+        <textarea name="mensaje" placeholder="Escriba su mensaje aquí" required></textarea>
+        <input id="boton" type="submit" value="Enviar" class="boton"></input>
       </form>
     </div>
   </div>
@@ -79,7 +67,7 @@
       </div>
       <div id="redes" class="col-xs-12 col-md-6">
         <p>Diseño Web</p>
-        <img src="imagenes/hrpublicreativa.png" width="150px;">
+        <a href="https://www.facebook.com/HRPublicidadCreativa"><img src="imagenes/hrpublicreativa.png" width="150px;"></a>
         <p id="web" style="font-size: 2vh; color: black;">hrpublicidadcreativa</p>
       </div>
     </div>
